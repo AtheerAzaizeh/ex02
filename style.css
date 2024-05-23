@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a
+{
+    text-decoration: none;
+    display: inline-flex;
+}
+
+ul
+{
+    list-style: none;
+}
+
+/* Start Header Area 01 */
+.Area01
+{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 128px;
+    justify-content: space-between;
+    font-family: 'Nunito';
+    top: 0;
+    left: 0;
+}
+
+/* Start Class Logo */
+.logo
+{
+    display: inline-flex;
+    align-items: center;
+    padding: 32px;
+}
+
+.logo span
+{
+    font-weight:700;
+    color: #3E3F43;
+    font-size: 24px;
+    line-height: 32.74px;
+    letter-spacing: 0.25em;
+}
+
+/* End Class Logo */
+
+/* Start Class Menu */
+
+nav ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+
+nav a
+{
+    margin-left: 64px;
+    color: #612999;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40.92px;
+}
+
+nav ul li a:hover 
+{
+    color: #FFA500; 
+}
+
+
+nav
+{
+   margin-left:84px ;
+   margin-right: 224px;
+}
+
+.Our
+{
+    font-weight: 700;
+    font-size: 30px;
+    color: #612999;
+}
+/*End Header Area 01 */
+
+/*Start Area 02 */
+.Area02
+{
+    display: inline-flex;
+    padding: 32px;
+}
+
+.Area02 img
+{
+    border: 4px solid #e6dbfe;
+    margin-right: 32px;
+}
+
+.product01
+{
+    width: 300px;
+    height: 300px;
+}
+
+.product02
+{
+    width: 388.29px;
+    height: 300px;
+}
+
+.product03
+{
+    width: 300px;
+    height: 300px;
+}
+/*End Area 02 */
+
+/*Start Area 03 */
+.Area03
+{
+    width: calc(100% - 64px);
+    height: 416px;
+    padding: 32px;
+}
+
+.Area03 h2
+{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px; 
+    color: #612999;
+}
+
+.List
+{
+    display: flex;
+    align-items: center;
+    
+}
+
+.List p
+{
+    margin-top: 30px;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 14px;
+    margin-left: 16px;
+}
+
+.List ul li
+{
+    float: left;
+}
+
+.icon
+{
+    background-image: url(images/Icons/rocket-launch.png);
+    background-repeat: no-repeat;
+    margin-top: 32px;
+    background-position: center;
+    border-radius: 46.5px;
+    background-color: #612999;
+    height: 82px;
+    width: 82px;
+    backdrop-filter: blur(20px);
+}
+
+/*End Area 03 */
+
+/*Start Area 04 */
+
+.Area04
+{
+    width: 100%;
+    height: 805px;
+    margin: 0px 32px 32px 32px ;
+    padding-top:96px ;
+    
+}
+
+.Area04 h2
+{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    color: #612999;
+}
+
+.background
+{
+    margin-top: 32px;
+    background-color:#EFECFF;
+    height: 503px;
+    display: flex;
+}
+
+.background
+{
+    padding: 32px;
+    display: flex;
+}
+
+.Details
+{
+    margin: 32px;
+}
+
+.Details span
+{
+   margin-top: 45px;
+   position: absolute;
+   font-family: 'Abel';
+   font-weight: 400;
+   font-size: 35px;
+   line-height: 44.6px;
+   text-align: justify;
+}
+
+.Details h3
+{
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 14px;
+    
+}
+
+.video
+{
+    width: 350px;
+    height: 350px;
+    margin-top: 10%;
+    margin-left: 20%;
+    position: absolute;
+}
+
+button 
+{
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 700px;
+    cursor: pointer;
+  }
+
+  button:hover
+  {
+    opacity: 0.8;
+  }
+
+.background img
+{
+    height: 200px;
+    width: 200px;
+}
+/*End Area 04 */
+
+/*Start Footer Area 05 */
+.Area05
+{
+    font-family: 'Nunito';
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 223px;
+    background-color: aliceblue;
+    bottom: 0px;
+    left: 0px;
+    position: sticky;
+}
+
+
+.dis
+{
+    display: flex;
+}
+
+.group01
+{
+    padding-right: 276px;
+    width: 126px;
+    height: 126px;
+    padding-left: 32px;
+}
+
+h3
+{
+    margin-bottom: 18px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #333333;
+}
+
+.group01 a , .group02 a
+{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: #333333;
+    font-size: 16px;
+    line-height: 21.82px;
+    
+}
+
+.social
+{
+    padding-left: 32px;
+}
+
+.social img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 29px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.Area05 span
+{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.82px;
+    color: #333333;
+    padding: 32px;
+}
+
+/*End Footer Area 05 */
